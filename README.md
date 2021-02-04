@@ -20,15 +20,18 @@ Assessing Argumentation Structure Prediction from Discourse Structure: a Symboli
 - dev/train/test correspond to SciDTB annotated corpus, as organized by the authors for there experiments
 - scidtb_argmin_annotations are argumentation annotations of the 60 documents provided by Accuosto
 
-### Analysis
-
-- jupyter notebook organized as in the paper
-
-### Prediction
-
-- jupyter notebook used to predict and evaluate the prediction (scores reported in the paper)
-
 ### Utils
 
 - all modules used for mining arg and disc graphs
 - gspan module (fork from https://github.com/betterenvi/gSpan that we slighlty modified to deal with nxgraphs)
+
+## Notebooks
+
+### Analysis
+
+- analysis of arg and disc similarities 
+
+### Prediction
+
+- prediction and evaluation (scores reported in the paper)
+
