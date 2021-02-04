@@ -11,7 +11,7 @@ Assessing Argumentation Structure Prediction from Discourse Structure: a Symboli
 - Data: SciDTB corpus and argumentation annotations provided by Accuosto et al. 
 - Analysis: Analysis of the correspondances between Discourse and Argumentation Structures
 - Prediction: Prediction and evaluation of the obtained predictions
-- Code: contains modules used in analysis and prediction notebooks
+- Utils: contains modules used in analysis and prediction notebooks
 
 ## Directories
 
@@ -27,3 +27,8 @@ Assessing Argumentation Structure Prediction from Discourse Structure: a Symboli
 ### Prediction
 
 - jupyter notebook used to predict and evaluate the prediction (scores reported in the paper)
+
+### Utils
+
+- all modules used for mining arg and disc graphs
+- gspan module (fork from https://github.com/betterenvi/gSpan that we slighlty modified to deal with nxgraphs)
